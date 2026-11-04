@@ -1,0 +1,10 @@
+[PASS] counts: 6 mazes, Easy/Medium/Hard rotating ([(12, 10), (18, 14), (24, 18), (12, 10), (18, 14), (24, 18)])
+[PASS] every maze is a tree by union-find (cells-1 passages, one component) -- so the route is unique (path lengths: [36, 96, 200, 64, 90, 144])
+[PASS] independent BFS route equals the printed solution path, cell by cell 
+[PASS] tamper: one extra opening breaks the tree proof 
+[PASS] tamper: closing a solution passage disconnects the exit 
+[PASS] PDF 612x792pt, 11 pages (11)
+[PASS] 6-maze mixed book builds in under 180s (0.2s)
+[PASS] deterministic for fixed seed 
+
+8/8 PASS
